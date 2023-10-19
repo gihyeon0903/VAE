@@ -9,7 +9,7 @@ url : https://www.youtube.com/watch?v=rNh2CrTFpm4&t=2321s (오토인코더의 �
 <p align="center">
   <img src="./result/figure_20epoch.png" width="800" height="400" />
 </p>
-* *  Epoch = 40
+  *  Epoch = 40
 <p align="center">
   <img src="./result/figure_40epoch.png" width="800" height="400" />
 </p>
