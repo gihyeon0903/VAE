@@ -5,21 +5,21 @@ url : https://www.youtube.com/watch?v=rNh2CrTFpm4&t=2321s (오토인코더의 �
 ## Result
 
 * Auto Encoder와 Variational Auto Encoder의 class(0 ~ 9) 별 Latent vector 분포
-  * Epoch = 20
+  * 첫 번째 학습 (epoch=30)
     <p align="center">
-      <img src="./result/figure_20epoch.png" width="800" height="400" />
+      <img src="./result/figure_index_1.png" width="800" height="400" />
     </p>
-  * Epoch = 40
+  * 두 번째 학습 (epoch=30)
     <p align="center">
-      <img src="./result/figure_40epoch.png" width="800" height="400" />
+      <img src="./result/figure_index_2.png" width="800" height="400" />
     </p>
-  * Epoch = 60
+  * 세 번째 학습 (epoch=30)
     <p align="center">
-      <img src="./result/figure_60epoch.png" width="800" height="400" />
+      <img src="./result/figure_index_3.png" width="800" height="400" />
     </p>
 
-AE의 Latent vector z의 경우, 오토인코더의 모든 것2 에서는 z값의 class 별 분포가 계속해서 바뀌였으나, 실제로 진행해본 결과 class 별 분포는 비슷하나 스케일이 조금씩 줄어듦.<br>
-VAE의 Latent vector z의 경우, 오토인코더의 모든 것2 에서와 동일하게 normal distribution을 따라가는 것을 확인할 수 있음.<br>
+AE의 Latent vector z의 경우, 새로운 학습 마다 z값의 class 별 분포가 계속해서 바뀜.<br>
+VAE의 Latent vector z의 경우, normal distribution을 따라가는 가며 새로운 학습이어도 거의 비슷하게 분포가 형성됨을 확인할 수 있음.<br>
 
 * Decoder(VAE)의 입력 z가 조금씩 변화함에 따라 출력되는 이미지
   * z(x:-2.5 ~ 2.5, y:-2.5 ~ 2.5) 의 z를 입력으로 줄 때,
