@@ -31,7 +31,7 @@ feature를 알아서 학습하여 방향에 따라 숫자의 두께나 방향이
 * Test dataset에 대한 Rconstruction Image(VAE)
 * * class 0 일 때
 <p align="center">
-  <img src="./result/reconst_imgs/class_0/img_0.jpg" width="200" height="200" />
-  <img src="./result/reconst_imgs/class_0/img_1.jpg" width="200" height="200" />
+  <img src="./result/reconst_imgs/class_0/img_0.jpg" width="80" height="80" />
+  <img src="./result/reconst_imgs/class_0/img_1.jpg" width="80" height="80" />
 </p>
 
