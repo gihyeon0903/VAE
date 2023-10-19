@@ -18,8 +18,8 @@ url : https://www.youtube.com/watch?v=rNh2CrTFpm4&t=2321s (오토인코더의 �
   <img src="./result/figure_60epoch.png" width="800" height="400" />
 </p>
 
-<p> * AE의 Latent vector z의 경우, 오토인코더의 모든 것2 에서는 z값의 class 별 분포가 계속해서 바뀌였으나, 실제로 진행해본 결과 class 별 분포는 비슷하나 스케일이 조금씩 줄어듦. </p>
-<p> * VAE의 Latent vector z의 경우, 오토인코더의 모든 것2 에서와 동일하게 normal distribution을 따라가는 것을 확인할 수 있음. </p>
+AE의 Latent vector z의 경우, 오토인코더의 모든 것2 에서는 z값의 class 별 분포가 계속해서 바뀌였으나, 실제로 진행해본 결과 class 별 분포는 비슷하나 스케일이 조금씩 줄어듦.<br>
+VAE의 Latent vector z의 경우, 오토인코더의 모든 것2 에서와 동일하게 normal distribution을 따라가는 것을 확인할 수 있음.<br>
 
 2. Decoder(VAE)의 입력 z가 조금씩 변화함에 따라 출력되는 이미지
 * z(x:-2.5 ~ 2.5, y:-2.5 ~ 2.5) 의 z를 입력으로 줄 때,
